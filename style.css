@@ -1,0 +1,98 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  background-color: #eeeeee;
+  font-family: Arial, sans-serif;
+  padding: 40px 15px;
+}
+
+main {
+  width: 100%;
+  max-width: 600px;
+  margin: auto;
+  padding: 25px;
+  background-color: white;
+  border-radius: 8px;
+}
+
+h1 {
+  margin-bottom: 25px;
+  text-align: center;
+}
+
+.cadastro {
+  display: flex;
+  gap: 10px;
+}
+
+input {
+  flex: 1;
+  padding: 11px;
+  border: 1px solid #aaaaaa;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+button {
+  padding: 11px 16px;
+  border: none;
+  border-radius: 5px;
+  background-color: #276bb4;
+  color: white;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #1e5591;
+}
+
+.botoes {
+  margin-top: 15px;
+  display: flex;
+  gap: 10px;
+}
+
+#mostrarTodas,
+#mostrarPendentes {
+  background-color: #555555;
+}
+
+#mensagem {
+  min-height: 25px;
+  margin-top: 15px;
+  color: #b52f2f;
+}
+
+.tarefa {
+  margin-top: 15px;
+  padding: 15px;
+  border: 1px solid #cccccc;
+  border-radius: 6px;
+}
+
+.tarefa h2 {
+  margin-bottom: 8px;
+  font-size: 19px;
+}
+
+.tarefa p {
+  margin-bottom: 6px;
+}
+
+.concluida {
+  background-color: #dff1df;
+}
+
+.botao-concluir {
+  margin-top: 8px;
+  background-color: #268347;
+}
+
+.botao-concluir:hover {
+  background-color: #1d6837;
+}
